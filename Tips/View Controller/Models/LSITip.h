@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // Property Attributes: + = default
 // readonly, *readwrite
-// *atomic vs nonatomic
+// *atomic vs nonatomic (use nonatomic for all properties)
 // copy = Always use copy with NSString
 // strong*, weak
 // retain (MRC)
@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithName:(NSString *)name
                        total:(double)total
                   splitCount:(int)splitCount
-               tipPercentage:(double)tipPercentage
+               tipPercentage:(double)tipPercentage;
 
 @end
 

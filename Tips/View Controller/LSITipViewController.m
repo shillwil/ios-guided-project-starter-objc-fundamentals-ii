@@ -7,14 +7,28 @@
 //
 
 #import "LSITipViewController.h"
+#import "LSITipController.h"
 
 // Class Extension
 
 @interface LSITipViewController ()
 
 // Private Properties
+@property (nonatomic) double total;
+@property (nonatomic) int split;
+@property (nonatomic) double percentage;
+@property (nonatomic) double tip;
+@property (nonatomic) LSITipController *tipController;
+
 
 // Private IBOutlets
+@property (strong, nonatomic) IBOutlet UILabel *tipLabel;
+@property (strong, nonatomic) IBOutlet UITextField *totalTextField;
+@property (strong, nonatomic) IBOutlet UILabel *splitLabel;
+@property (strong, nonatomic) IBOutlet UILabel *percentageLabel;
+@property (strong, nonatomic) IBOutlet UIStepper *splitStepper;
+@property (strong, nonatomic) IBOutlet UISlider *percentageSlider;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 // Private Methods
 
@@ -46,7 +60,17 @@
 }
 
 // MARK: - IBActions
+- (IBAction)updateSplit:(UIStepper *)sender {
+    NSLog(@"split: %f", self.splitStepper.value);
+}
 
+- (IBAction)updatePercentage:(UISlider *)sender {
+    NSLog(@"slider: %f", self.percentageSlider.value);
+}
+
+- (IBAction)saveTip:(UIButton *)sender {
+    NSLog(@"save tip!");
+}
 
 // TODO: Connect actions for splitChanged, sliderChanged, and Save Tip button
 

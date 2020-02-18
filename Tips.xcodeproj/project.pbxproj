@@ -15,6 +15,7 @@
 		461E8AAB23EC7AFA00C1F2B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AAA23EC7AFA00C1F2B7 /* main.m */; };
 		461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */; };
 		A2D597E223FC53FC002CA082 /* LSITip.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D597E123FC53FC002CA082 /* LSITip.m */; };
+		A2D597E623FC5913002CA082 /* LSITipController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D597E523FC5913002CA082 /* LSITipController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		461E8AB823EC97E200C1F2B7 /* LSITipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipViewController.m; sourceTree = "<group>"; };
 		A2D597E023FC53FC002CA082 /* LSITip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITip.h; sourceTree = "<group>"; };
 		A2D597E123FC53FC002CA082 /* LSITip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITip.m; sourceTree = "<group>"; };
+		A2D597E423FC5913002CA082 /* LSITipController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSITipController.h; sourceTree = "<group>"; };
+		A2D597E523FC5913002CA082 /* LSITipController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSITipController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				A2D597E023FC53FC002CA082 /* LSITip.h */,
 				A2D597E123FC53FC002CA082 /* LSITip.m */,
+				A2D597E423FC5913002CA082 /* LSITipController.h */,
+				A2D597E523FC5913002CA082 /* LSITipController.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D597E623FC5913002CA082 /* LSITipController.m in Sources */,
 				461E8A9A23EC7AF900C1F2B7 /* AppDelegate.m in Sources */,
 				461E8AB923EC97E200C1F2B7 /* LSITipViewController.m in Sources */,
 				A2D597E223FC53FC002CA082 /* LSITip.m in Sources */,
