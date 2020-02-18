@@ -10,7 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// Public constants
+
 @interface LSITipViewController : UIViewController
+
+// Public Methods or properties
 
 @end
 
